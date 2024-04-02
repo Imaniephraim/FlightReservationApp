@@ -39,7 +39,7 @@ public class Main
                     double balance = scanner.nextDouble();
                     scanner.nextLine();// consumes new line character
 
-                    System.out.println("Enter the account type ( e.g Savings/Checking): ");
+                    System.out.print("Enter the account type ( e.g Savings/Checking): ");
                     String accountType = scanner.nextLine();
 
                     cplBank.addAccount(accountNumber,accountHolderName,balance,accountType);
